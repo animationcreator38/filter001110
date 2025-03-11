@@ -135,21 +135,17 @@ async def plan(client, message):
     users = message.from_user.mention
     log_message = f"<b><u>🚫 ᴛʜɪs ᴜsᴇʀs ᴛʀʏ ᴛᴏ ᴄʜᴇᴄᴋ /plan</u> {temp.B_LINK}\n\n- ɪᴅ - `{user_id}`\n- ɴᴀᴍᴇ - {users}</b>" 
     btn = [[
-            InlineKeyboardButton('🤝🏻 Rᴇғᴇʀ & Gᴇᴛ Pʀᴇᴍɪᴜᴍ ', callback_data='reffff')
+            InlineKeyboardButton('🔹 Tɪɴʏ', callback_data='broze'),
+            InlineKeyboardButton('🎉 Sᴛᴀʀᴛᴇʀ', callback_data='silver')
         ],[
-            InlineKeyboardButton('🥉 ʙʀᴏɴᴢᴇ ', callback_data='broze'),
-            InlineKeyboardButton('🥈 ꜱɪʟᴠᴇʀ ', callback_data='silver')
+            InlineKeyboardButton('🥈 Sɪʟᴠᴇʀ', callback_data='gold'),
+            InlineKeyboardButton('🏅 Gᴏʟᴅᴇɴ', callback_data='platinum')
         ],[
-            InlineKeyboardButton('🥇 ɢᴏʟᴅ ', callback_data='gold'),
-            InlineKeyboardButton('💘 ᴘʟᴀᴛɪɴᴜᴍ ', callback_data='platinum')
-        ],[
-            InlineKeyboardButton('💎 ᴅɪᴀᴍᴏɴᴅ ', callback_data='diamond'),
-            InlineKeyboardButton('🤦 ᴏᴛʜᴇʀ ', callback_data='other')
-        ],[
-            InlineKeyboardButton('ɢᴇᴛ ғʀᴇᴇ ᴛʀᴀɪʟ ғᴏʀ 𝟻 ᴍɪɴᴜᴛᴇs ☺️', callback_data='free')
+            InlineKeyboardButton('🚀 Pʟᴀᴛɪɴᴜᴍ', callback_data='diamond'),
+            InlineKeyboardButton('💎 Dɪᴀᴍᴏɴᴅ', callback_data='other')
         ],[            
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
-    ]]
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ ⭆', callback_data='start')
+        ]]
     await message.reply_photo(photo="https://graph.org/file/86da2027469565b5873d6.jpg", caption=script.PREMIUM_TEXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
     await client.send_message(LOG_CHANNEL, log_message)
 
