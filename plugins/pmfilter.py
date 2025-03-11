@@ -147,7 +147,7 @@ async def refercall(bot, query):
     await bot.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/1a2e64aee3d4d10edd930.jpg")
+            InputMediaPhoto("https://envs.sh/Wj9.png")
         )
     await query.message.edit_text(
         text=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join,  you will get 10 refferal points and after 100 points you will get 1 month premium subscription.',
