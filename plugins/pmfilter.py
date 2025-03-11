@@ -2235,10 +2235,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
    
     elif query.data == "shortlink_info":
             btn = [[
-            InlineKeyboardButton("1 / 3", callback_data="pagesn1"),
-            InlineKeyboardButton("ɴᴇxᴛ ⋟", callback_data="shortlink_info2")
-            ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton("⭅ Bᴀᴄᴋ", callback_data='start'),
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ ⭆", url=OWNER_LNK)
             ]]
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
