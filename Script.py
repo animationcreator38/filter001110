@@ -1,15 +1,15 @@
 class script(object):
-    START_TXT = """<b><blockquote>Hᴇʏ {} {} 🫡,</blockquote>
+    START_TXT = """<b><blockquote>Hᴇʏ {} {}</blockquote>
     
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.</b>"""
 
-    GSTART_TXT = """<b><blockquote>Hᴇʏ {} {} 🫡,</blockquote>
+    GSTART_TXT = """<b><blockquote>Hᴇʏ {} {}</blockquote>
     
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.</b>"""
     
-    HELP_TXT = """<b><blockquote>Hᴇʏ {} {} 🫡,</blockquote>
+    HELP_TXT = """<b><blockquote>Hᴇʏ {} {}</blockquote>
     
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs,
 ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ.</b>"""
