@@ -1865,13 +1865,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #@Deendayal_dhakad   
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('⚜️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ꜰʀᴇᴇ ᴛʀɪᴀʟ', callback_data="give_trial")
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='other'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='other'),
             InlineKeyboardButton('1 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='broze')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='broze')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1882,13 +1882,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "broze":
         buttons = [[
-            InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='free'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='free'),
             InlineKeyboardButton('2 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='silver')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='silver')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1904,13 +1904,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "silver":
         buttons = [[
-            InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='broze'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='broze'),
             InlineKeyboardButton('3 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='gold')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='gold')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1926,13 +1926,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 #Deendayal403
     elif query.data == "gold":
         buttons = [[
-            InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='silver'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='silver'),
             InlineKeyboardButton('4 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='platinum')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='platinum')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1948,13 +1948,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "platinum":
         buttons = [[
-            InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='gold'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='gold'),
             InlineKeyboardButton('5 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='diamond')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='diamond')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1970,13 +1970,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "diamond":
         buttons = [[
-            InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='platinum'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='platinum'),
             InlineKeyboardButton('6 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='other')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='other')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1987,13 +1987,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "other":
         buttons = [[
-            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ', url=OWNER_LNK)
+            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='diamond'),
+            InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='diamond'),
             InlineKeyboardButton('7 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='free')
+            InlineKeyboardButton('Nᴇxᴛ ⭆', callback_data='free')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='premium_info')
+            InlineKeyboardButton('⭅ Gᴏ Bᴀᴄᴋ ⭆', callback_data='premium_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
