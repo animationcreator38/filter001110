@@ -1862,7 +1862,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #@Deendayal_dhakad   
     elif query.data == "free":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='other'),
             InlineKeyboardButton('1 / 7', callback_data='pagesn1'),
@@ -1879,7 +1879,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "broze":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='free'),
             InlineKeyboardButton('2 / 7', callback_data='pagesn1'),
@@ -1901,7 +1901,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "silver":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='broze'),
             InlineKeyboardButton('3 / 7', callback_data='pagesn1'),
@@ -1923,7 +1923,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 #Deendayal403
     elif query.data == "gold":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='silver'),
             InlineKeyboardButton('4 / 7', callback_data='pagesn1'),
@@ -1945,7 +1945,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "platinum":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='gold'),
             InlineKeyboardButton('5 / 7', callback_data='pagesn1'),
@@ -1967,7 +1967,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "diamond":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='platinum'),
             InlineKeyboardButton('6 / 7', callback_data='pagesn1'),
@@ -1984,7 +1984,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "other":
         buttons = [[
-            InlineKeyboardButton('🛒 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🛒', callback_data='purchase')
+            InlineKeyboardButton('🌟 Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ 🌟', callback_data='purchase')
         ],[
             InlineKeyboardButton('⭅ Bᴀᴄᴋ', callback_data='diamond'),
             InlineKeyboardButton('7 / 7', callback_data='pagesn1'),
