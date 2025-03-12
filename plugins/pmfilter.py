@@ -1823,7 +1823,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🚀 Pʟᴀᴛɪɴᴜᴍ', callback_data='diamond'),
             InlineKeyboardButton('💎 Dɪᴀᴍᴏɴᴅ', callback_data='other')
         ],[            
-            InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('⭅ Cʟᴏꜱᴇ Lɪꜱᴛ ⭆', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.reply_photo(
