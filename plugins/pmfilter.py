@@ -150,7 +150,7 @@ async def refercall(bot, query):
             InputMediaPhoto("https://envs.sh/Wj9.png")
         )
     await query.message.edit_text(
-        text=f'Hay Your refer link:\n\nhttps://t.me/{bot.me.username}?start=reff_{query.from_user.id}\n\nShare this link with your friends, Each time they join,  you will get 10 refferal points and after 100 points you will get 1 month premium subscription.',
+        text=f'✨✨ ℂ𝕀ℕ𝔼𝕎𝕆𝕆𝔻 ℂ𝕆𝕀ℕ𝕊 ✨✨\n\nᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ɪꜱ ᴀ ɢʀᴇᴀᴛ ᴏᴘᴘᴏʀᴛᴜɴɪᴛʏ ꜰᴏʀ ᴛʜᴏꜱᴇ ᴡʜᴏ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴍᴏɴᴇʏ ᴏʀ ᴄᴀɴ'ᴛ ᴍᴀᴋᴇ ᴏɴʟɪɴᴇ ᴘᴀʏᴍᴇɴᴛꜱ ꜰᴏʀ ᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ʏᴏᴜ ᴊᴜꜱᴛ ꜱʜᴀʀᴇ ʏᴏᴜʀ ʀᴇꜰᴇʀʀᴀʟ ʟɪɴᴋ ᴡɪᴛʜ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ, ꜰᴀᴍɪʟʏ, ɢʀᴏᴜᴘs, ᴇᴛᴄ.\n\n‼️ ʏᴏᴜʀ ʀᴇꜰꜰʀᴀʟ ʟɪɴᴋ 👇\n\n https://t.me/{bot.me.username}?start=cinewood_coin{query.from_user.id}\n\nɴᴏᴡ ꜱᴏᴍᴇᴏɴᴇ ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ꜰʀᴏᴍ ʏᴏᴜʀ ʟɪɴᴋ, ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟪 ᴄᴏɪɴꜱ ᴘᴇʀ  ʀᴇꜰᴇʀʀᴀʟ, ᴡʜᴇɴ ʏᴏᴜʀ ᴄᴏɪɴ ʙᴇᴄᴏᴍᴇꜱ 𝟤𝟦, ᴛʜᴀᴛ ɪꜱ, ᴡʜᴇɴ ʏᴏᴜ ʜᴀᴠᴇ 𝟥 ʀᴇꜰᴇʀʀᴀʟꜱ, ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟤𝟦 ᴄᴏɪɴꜱ. ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴛᴀᴋᴇ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ꜰᴏʀ 𝟤𝟦 ʜᴏᴜʀꜱ ꜰʀᴇᴇ ᴏꜰ ᴄᴏꜱᴛ ᴡɪᴛʜ 𝟤𝟦 ᴄᴏɪɴꜱ.',
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
         )
