@@ -2381,11 +2381,20 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🤷‍♂️ 𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙈𝙤𝙫𝙞𝙚 🤷", url=await get_tutorial(message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(message.chat.id))
         ])
 
     else:
-        btn = []
+        btn.insert(0, 
+            [
+                InlineKeyboardButton(f'Rᴜʟᴇs', 'select'),
+                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+            ]
+        )
+        btn.insert(0, [
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(message.chat.id))
+        ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
         try:
