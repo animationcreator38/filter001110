@@ -27,7 +27,7 @@ async def save_group(bot, message):
         if message.chat.id in temp.BANNED_CHATS:
             
             buttons = [[
-                InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=OWNER_LNK)
+                InlineKeyboardButton('⭅ Cᴏɴᴛᴀᴄᴛ Uꜱ ⭆', url=OWNER_LNK)
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -42,11 +42,11 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton("👩‍🌾 Bot Owner 👩‍🌾", url=OWNER_LNK)
+                    InlineKeyboardButton("⭅ Cᴏɴᴛᴀᴄᴛ Uꜱ ⭆", url=OWNER_LNK)
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            text=f"<b>ᴛʜᴀɴᴋʏᴏᴜ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} ❣️\n\nʏᴏᴜ ᴀʀᴇ ᴍʏ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴘᴇʀꜱᴏɴ\n\nɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴏᴜʀ ʙᴏᴛ ᴏʀ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ᴘʟᴇᴀꜱᴇ ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ.</b>",
             reply_markup=reply_markup)
     else:
         settings = await get_settings(message.chat.id)
@@ -62,7 +62,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=OWNER_LNK)
+                                                                           InlineKeyboardButton("⭅ Cᴏɴᴛᴀᴄᴛ Uꜱ ⭆", url=OWNER_LNK)
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -84,7 +84,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-                  InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=OWNER_LNK)
+                  InlineKeyboardButton("⭅ Cᴏɴᴛᴀᴄᴛ Uꜱ ⭆", url=OWNER_LNK)
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -123,7 +123,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=OWNER_LNK)
+            InlineKeyboardButton('⭅ Cᴏɴᴛᴀᴄᴛ Uꜱ ⭆', url=OWNER_LNK)
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
