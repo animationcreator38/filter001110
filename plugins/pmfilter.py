@@ -2392,7 +2392,7 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 🎃", url=await get_tutorial(message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(message.chat.id))
         ])
         
     if offset != "":
