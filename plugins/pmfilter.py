@@ -1257,7 +1257,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}')
                 ],
                 [
-                    InlineKeyboardButton('Sʜᴏʀᴛʟɪɴᴋ',
+                    InlineKeyboardButton('Sᴇᴛʟɪɴᴋ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}'),
                     InlineKeyboardButton('Eɴᴀʙʟᴇ' if settings["is_shortlink"] else 'Dɪꜱᴀʙʟᴇ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}')
@@ -1337,7 +1337,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}')
                 ],
                 [
-                    InlineKeyboardButton('Sʜᴏʀᴛʟɪɴᴋ',
+                    InlineKeyboardButton('Sᴇᴛʟɪɴᴋ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}'),
                     InlineKeyboardButton('Eɴᴀʙʟᴇ' if settings["is_shortlink"] else 'Dɪꜱᴀʙʟᴇ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}')
@@ -2258,7 +2258,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                          callback_data=f'setgs#max_btn#{settings["max_btn"]}#{str(grp_id)}')
                 ],
                 [
-                    InlineKeyboardButton('Sʜᴏʀᴛʟɪɴᴋ',
+                    InlineKeyboardButton('Sᴇᴛʟɪɴᴋ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}'),
                     InlineKeyboardButton('Eɴᴀʙʟᴇ' if settings["is_shortlink"] else 'Dɪꜱᴀʙʟᴇ',
                                          callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{str(grp_id)}')
