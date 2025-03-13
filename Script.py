@@ -284,7 +284,9 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/Deendayal_dhakad">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href=https://t.me/Deendayal_dhakad>[Deendayal_Dhakad]</a></b>"""
+    CAPTION = """<b>🗂️ 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦� : {file_name}
+
+<b>📀 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 : {file_size}</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
