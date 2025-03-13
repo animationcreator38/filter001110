@@ -1181,7 +1181,7 @@ async def deletemultiplefiles(bot, message):
         parse_mode=enums.ParseMode.HTML
     )
 
-@Client.on_message(filters.command("shortlink"))
+@Client.on_message(filters.command("setlink"))
 async def shortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -1213,7 +1213,7 @@ async def shortlink(bot, message):
     await save_group_settings(grpid, 'is_shortlink', True)
     await reply.edit_text(f"<b>✅ ʟɪɴᴋ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴀᴅᴅᴇᴅ ꜰᴏʀ <code>{title}</code>.\n\nꜱᴇᴛʟɪɴᴋ ᴡᴇʙꜱɪᴛᴇ : <code>{shortlink_url}</code>\nꜱᴇᴛʟɪɴᴋ ᴀᴘɪ : <code>{api}</code></b>")
 
-@Client.on_message(filters.command("setshortlinkoff") & filters.user(ADMINS))
+@Client.on_message(filters.command("setlinkoff") & filters.user(ADMINS))
 async def offshortlink(bot, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -1227,7 +1227,7 @@ async def offshortlink(bot, message):
     ENABLE_SHORTLINK = False
     return await message.reply_text("ꜱʜᴏʀᴛʟɪɴᴋ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅɪꜱᴀʙʟᴇᴅ.")
     
-@Client.on_message(filters.command("setshortlinkon") & filters.user(ADMINS))
+@Client.on_message(filters.command("setlinkon") & filters.user(ADMINS))
 async def onshortlink(bot, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -1242,7 +1242,7 @@ async def onshortlink(bot, message):
     return await message.reply_text("ꜱʜᴏʀᴛʟɪɴᴋ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴇɴᴀʙʟᴇᴅ.")
 
 
-@Client.on_message(filters.command("shortlink_info"))
+@Client.on_message(filters.command("showlink"))
 async def ginfo(bot, message):
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -1283,7 +1283,7 @@ async def ginfo(bot, message):
         else:
             return await message.reply_text("ꜱʜᴏʀᴛɴᴇʀ ᴀɴᴅ ᴛᴜᴛᴏʀɪᴀʟ ᴀʀᴇ ɴᴏᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ.\n\nᴄʜᴇᴄᴋ /tutorial  ᴀɴᴅ  /setlink  ᴄᴏᴍᴍᴀɴᴅ.")
 
-@Client.on_message(filters.command("set_tutorial"))
+@Client.on_message(filters.command("tutorial"))
 async def settutorial(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -1313,7 +1313,7 @@ async def settutorial(bot, message):
     else:
         return await message.reply("<b>ʏᴏᴜ ᴇɴᴛᴇʀᴇᴅ ɪɴᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ !\nᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀᴛ : /tutorial <code>https://t.me/example</code></b>")
 
-@Client.on_message(filters.command("remove_tutorial"))
+@Client.on_message(filters.command("rmtutorial"))
 async def removetutorial(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -1366,7 +1366,7 @@ async def topsearch_callback(client, callback_query):
     await callback_query.message.reply_text("<b>Tᴏᴘ Sᴇᴀʀᴄʜᴇs Oғ Tʜᴇ Dᴀʏ 👇</b>", reply_markup=reply_markup)
     await callback_query.answer()
 
-@Client.on_message(filters.command('top_search'))
+@Client.on_message(filters.private & filters.command("todayoursearches") & filters.user(ADMINS))
 async def top(_, message):
     def is_alphanumeric(string):
         return bool(re.match('^[a-zA-Z0-9 ]*$', string))
@@ -1393,7 +1393,7 @@ async def top(_, message):
     await message.reply_text(f"<b>Tᴏᴘ Sᴇᴀʀᴄʜᴇs Oғ Tʜᴇ Dᴀʏ 👇</b>", reply_markup=reply_markup)
 
     
-@Client.on_message(filters.command('trendlist'))
+@Client.on_message(filters.private & filters.command("botseachlisting") & filters.user(ADMINS))
 async def trendlist(client, message):
     def is_alphanumeric(string):
         return bool(re.match('^[a-zA-Z0-9 ]*$', string))
