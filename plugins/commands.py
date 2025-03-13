@@ -471,7 +471,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id=message.from_user.id, text=f"<b><u>⚠️⚠️ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠️⚠️</u></b>\n\nᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ, ᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 𝟭𝟬 ⏳ ᴍɪɴᴜᴛᴇꜱ. ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ ᴛᴏ ᴀ ꜰʀɪᴇɴᴅ ⏩ ᴏʀ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇ ꜰᴏʟᴅᴇʀ. ᴛʜᴇɴ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ⚡ ᴛʜᴇ ᴍᴏᴠɪᴇ ꜰʀᴏᴍ ᴛʜᴇʀᴇ. ᴛʜᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ ꜰɪʟᴇ ᴡɪʟʟ ɴᴏᴛ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ᴛʜᴇʀᴇ.</b>")
+        k = await client.send_message(chat_id=message.from_user.id, text=f"<b><u>⚠️⚠️ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠️⚠️</u></b>\n\nᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ, ᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 5 ⏳ ᴍɪɴᴜᴛᴇꜱ. ᴘʟᴇᴀꜱᴇ ꜰᴏʀᴡᴀʀᴅ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ꜰɪʟᴇ ᴛᴏ ᴀ ꜰʀɪᴇɴᴅ ⏩ ᴏʀ ꜱᴀᴠᴇᴅ ᴍᴇꜱꜱᴀɢᴇ ꜰᴏʟᴅᴇʀ. ᴛʜᴇɴ ꜱᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ⚡ ᴛʜᴇ ᴍᴏᴠɪᴇ ꜰʀᴏᴍ ᴛʜᴇʀᴇ. ᴛʜᴇɴ ᴛʜᴇ ᴍᴏᴠɪᴇ ꜰɪʟᴇ ᴡɪʟʟ ɴᴏᴛ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ ᴛʜᴇʀᴇ.</b>")
         await asyncio.sleep(DELETE_TIME)
         for x in filesarr:
             await x.delete()
