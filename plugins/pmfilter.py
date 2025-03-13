@@ -1129,12 +1129,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = await is_subscribed(client, query, channels)
             if btn:
                 await query.answer(
-                    f"👋 Hello {query.from_user.first_name},\n\n"
-                    "Yᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴀʟʟ ʀᴇǫᴜɪʀᴇᴅ ᴜᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟs.\n"
-                    "Pʟᴇᴀsᴇ ᴊᴏɪɴ ᴇᴀᴄʜ ᴄʜᴀɴɴᴇʟ ʟɪsᴛᴇᴅ ʙᴇʟᴏᴡ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.\n\n",
+                    f"Hᴇʏ {message.from_user.mention} 👋\n\n"
+                    "ʏᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴏᴜʀ ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ😢. ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ɪꜱ ɪᴍᴘᴏʀᴛᴀɴᴛ ꜰᴏʀ ʙᴏᴛʜ ʏᴏᴜ ᴀɴᴅ ᴜꜱ. ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴊᴏɪɴ ᴛʜᴇ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ✅.",
                     show_alert=True
                 )
-                btn.append([InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", callback_data=f"checksub#{kk}#{file_id}")])
+                btn.append([InlineKeyboardButton("⟳ Tʀʏ Aɢᴀɪɴ ⟳", callback_data=f"checksub#{kk}#{file_id}")])
                 await query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(btn))
                 return
         await query.answer(url=f"https://t.me/{temp.U_NAME}?start={kk}_{file_id}")
