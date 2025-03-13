@@ -235,12 +235,12 @@ async def start(client, message):
 
             if STREAM_MODE:
                 btn = [
-                    [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')],
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged
+                    [InlineKeyboardButton('🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ & Wᴀᴛᴄʜ Oɴʟɪɴᴇ 📡', callback_data=f'generate_stream_link:{file_id}')],
+                    [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged
                 ]
             else:
                 btn = [
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
+                    [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
                 ]
             try:
                 await client.send_cached_media(
@@ -455,12 +455,12 @@ async def start(client, message):
                     return
             if STREAM_MODE:
                 btn = [
-                    [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')],
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged  
+                    [InlineKeyboardButton('🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ & Wᴀᴛᴄʜ Oɴʟɪɴᴇ 📡', callback_data=f'generate_stream_link:{file_id}')],
+                    [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged  
                 ]
             else:
                 btn = [
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
+                    [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
                 ]
 
             msg = await client.send_cached_media(
@@ -535,13 +535,13 @@ async def start(client, message):
                    return
             if STREAM_MODE:
                 btn = [
-                    [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')],
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged
+                    [InlineKeyboardButton('🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ & Wᴀᴛᴄʜ Oɴʟɪɴᴇ 📡', callback_data=f'generate_stream_link:{file_id}')],
+                    [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged
              
                 ]
             else:
                 btn = [
-                    [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
+                    [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
                 ]
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -612,12 +612,12 @@ async def start(client, message):
             return
     if STREAM_MODE:
         btn = [
-            [InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')],
-            [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged
+            [InlineKeyboardButton('🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ & Wᴀᴛᴄʜ Oɴʟɪɴᴇ 📡', callback_data=f'generate_stream_link:{file_id}')],
+            [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]  # Keep this line unchanged
         ]
     else:
         btn = [
-            [InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
+            [InlineKeyboardButton('🎬 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🎬', url=DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK)]
         ]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
