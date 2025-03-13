@@ -536,7 +536,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
         0,
         [
             InlineKeyboardButton(
-                text="⇊ ꜱᴇʟᴇᴄᴛ ʟᴀɴɢᴜᴀɢᴇ ⇊", callback_data="ident"
+                text="⇊ Sᴇʟᴇᴄᴛ Lᴀɴɢᴜᴀɢᴇ ⇊", callback_data="ident"
             )
         ],
     )
