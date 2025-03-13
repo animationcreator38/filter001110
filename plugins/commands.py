@@ -111,7 +111,7 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return
-    if message.command[1].startswith("reff_"):
+    if message.command[1].startswith("cinewood_coin"):
         try:
             user_id = int(message.command[1].split("_")[1])
         except ValueError:
