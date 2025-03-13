@@ -900,7 +900,7 @@ async def settings(client, message):
             ],
             [
                 InlineKeyboardButton(
-                    'Sʜᴏʀᴛʟɪɴᴋ',
+                    'Sᴇᴛʟɪɴᴋ',
                     callback_data=f'setgs#is_shortlink#{settings["is_shortlink"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
