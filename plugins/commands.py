@@ -177,7 +177,7 @@ async def start(client, message):
             btn = await is_subscribed(client, message, channels)
             if btn:
                 kk, file_id = message.command[1].split("_", 1)
-                btn.append([InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", callback_data=f"checksub#{kk}#{file_id}")])
+                btn.append([InlineKeyboardButton("⟳ Tʀʏ Aɢᴀɪɴ ⟳", callback_data=f"checksub#{kk}#{file_id}")])
                 reply_markup = InlineKeyboardMarkup(btn)
                 caption = (
                     f"Hᴇʏ {message.from_user.mention} 👋\n\n"
