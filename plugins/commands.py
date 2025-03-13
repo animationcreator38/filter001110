@@ -371,9 +371,9 @@ async def start(client, message):
         k = await client.send_message(chat_id=message.from_user.id,text=f"🗂️ 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞 : <code>{files.file_name}</code> \n\n📀 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n‼️ꜰᴏʀ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇꜱ ᴘʟᴇᴀꜱᴇ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴜꜱɪɴɢ /plans ᴏᴛʜᴇʀᴡɪꜱᴇ ᴡᴀᴛᴄʜ ᴀᴅꜱ ᴀɴᴅ ᴇɴᴊᴏʏ 😉\n\n<i>𝐍𝐨𝐭𝐞 : ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 𝟤𝟢 ᴍɪɴꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛꜱ. ꜱᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📁 ᴅᴏᴡɴʟᴏᴀᴅ 📁', url=g)
+                        InlineKeyboardButton('⚡ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇ ⚡', url=g)
                     ], [
-                        InlineKeyboardButton('⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('🎃 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ᴍᴏᴠɪᴇ 🎃', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -404,9 +404,9 @@ async def start(client, message):
             k = await client.send_message(chat_id=user_id,text=f"🗂️ 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞 : <code>{files.file_name}</code> \n\n📀 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n‼️ꜰᴏʀ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇꜱ ᴘʟᴇᴀꜱᴇ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴜꜱɪɴɢ /plans ᴏᴛʜᴇʀᴡɪꜱᴇ ᴡᴀᴛᴄʜ ᴀᴅꜱ ᴀɴᴅ ᴇɴᴊᴏʏ 😉\n\n<i>𝐍𝐨𝐭𝐞 : ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 𝟤𝟢 ᴍɪɴꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛꜱ. ꜱᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📁 ᴅᴏᴡɴʟᴏᴀᴅ 📁', url=g)
+                            InlineKeyboardButton('⚡ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇ ⚡', url=g)
                         ], [
-                            InlineKeyboardButton('⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('🎃 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ᴍᴏᴠɪᴇ 🎃', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
@@ -501,9 +501,9 @@ async def start(client, message):
             k = await client.send_message(chat_id=message.from_user.id,text=f"🗂️ 𝐅𝐢𝐥𝐞 𝐍𝐚𝐦𝐞 : <code>{files.file_name}</code> \n\n📀 𝐅𝐢𝐥𝐞 𝐒𝐢𝐳𝐞 : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n‼️ꜰᴏʀ ᴅɪʀᴇᴄᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇꜱ ᴘʟᴇᴀꜱᴇ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴜꜱɪɴɢ /plans ᴏᴛʜᴇʀᴡɪꜱᴇ ᴡᴀᴛᴄʜ ᴀᴅꜱ ᴀɴᴅ ᴇɴᴊᴏʏ 😉\n\n<i>𝐍𝐨𝐭𝐞 : ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ ɪɴ 𝟤𝟢 ᴍɪɴꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛꜱ. ꜱᴀᴠᴇ ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ꜱᴏᴍᴇᴡʜᴇʀᴇ ᴇʟꜱᴇ</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📁 ᴅᴏᴡɴʟᴏᴀᴅ 📁', url=g)
+                            InlineKeyboardButton('⚡ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇ ⚡', url=g)
                         ], [
-                            InlineKeyboardButton('⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('🎃 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ᴍᴏᴠɪᴇ 🎃', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
