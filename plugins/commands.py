@@ -118,7 +118,7 @@ async def start(client, message):
             await message.reply_text("Invalid refer!")
             return
         if user_id == message.from_user.id:
-            await message.reply_text("Hᴇʏ Dᴜᴅᴇ, Yᴏᴜ Cᴀɴ'ᴛ Rᴇғᴇʀ Yᴏᴜʀsᴇʟғ 🤣!\n\nsʜᴀʀᴇ ʟɪɴᴋ ʏᴏᴜʀ ғʀɪᴇɴᴅ ᴀɴᴅ ɢᴇᴛ 10 ʀᴇғᴇʀʀᴀʟ ᴘᴏɪɴᴛ ɪғ ʏᴏᴜ ᴀʀᴇ ᴄᴏʟʟᴇᴄᴛɪɴɢ 100 ʀᴇғᴇʀʀᴀʟ ᴘᴏɪɴᴛs ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ 1 ᴍᴏɴᴛʜ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀsʜɪᴘ.")
+            await message.reply_text("ʜᴇʟʟᴏ ꜱɪʀ, Yᴏᴜ Cᴀɴ'ᴛ Rᴇғғᴇʀ Yᴏᴜʀsᴇʟғ 🙅🏻\n\nꜱʜᴀʀᴇ ᴛʜɪꜱ ʀᴇꜰꜰᴇʀᴀʟ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ, ꜰᴀᴍɪʟʏ, ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɢᴇᴛ 10 ᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ᴡʜᴇɴ ʏᴏᴜʀ ᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ʀᴇᴀᴄʜ 𝟣𝟢𝟢 ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ 𝟣𝟢 ᴅᴀʏꜱ ꜰʀᴇᴇ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ.")
             return
         if referdb.is_user_in_list(message.from_user.id):
             await message.reply_text("Yᴏᴜ ʜᴀᴠᴇ ʙᴇᴇɴ ᴀʟʀᴇᴀᴅʏ ɪɴᴠɪᴛᴇᴅ ❗")
