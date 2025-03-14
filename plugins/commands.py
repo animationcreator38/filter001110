@@ -128,7 +128,7 @@ async def start(client, message):
         except Exception:
             return 	    
         referdb.add_user(message.from_user.id)
-        fromuse = referdb.get_refer_points(user_id) + 10
+        fromuse = referdb.get_refer_points(user_id) + 50
         if fromuse == 100:
             referdb.add_refer_points(user_id, 0) 
             await message.reply_text(f"🎉 ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ ꜱɪʀ, 🥳 ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴄᴇɪᴠᴇᴅ 𝟣𝟢 ᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ʙᴇᴄᴀᴜꜱᴇ {uss.mention} ʜᴀꜱ ꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ꜰʀᴏᴍ ʏᴏᴜʀ ʀᴇꜰᴇʀʀᴀʟ ʟɪɴᴋ")		    
