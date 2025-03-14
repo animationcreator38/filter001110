@@ -140,14 +140,14 @@ async def start(client, message):
                 await db.update_user(user_data)  # Use the update_user method to update or insert user data		    
                 await client.send_message(
                 chat_id=user_id,
-                text=f"<b>Hᴇʏ {uss.mention}\n\nYᴏᴜ ɢᴏᴛ 𝟤𝟦 ʜᴏᴜʀꜱ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ʙʏ ɪɴᴠɪᴛɪɴɢ 3 ᴜsᴇʀs ❗", disable_web_page_preview=True              
+                text=f"<b>Hᴇʏ {uss.mention}\n\nᴍᴀɴʏ 🎊 ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ 🥳, ʏᴏᴜ ʜᴀᴠᴇ ɢᴏᴛ 🎁 𝟣𝟢 ᴅᴀʏꜱ ᴏꜰ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ʙᴇᴄᴀᴜꜱᴇ ʏᴏᴜ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 𝟣𝟢 ʀᴇꜰᴇʀʀᴀʟꜱ.", disable_web_page_preview=True              
                 )
             for admin in ADMINS:
-                await client.send_message(chat_id=admin, text=f"Sᴜᴄᴄᴇss ғᴜʟʟʏ ᴛᴀsᴋ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʙʏ ᴛʜɪs ᴜsᴇʀ:\n\nuser Nᴀᴍᴇ: {uss.mention}\n\nUsᴇʀ ɪᴅ: {uss.id}!")	
+                await client.send_message(chat_id=admin, text=f"ᴛʜɪꜱ ᴜꜱᴇʀ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ ʀᴇꜰᴇʀʀᴀʟ ᴛᴀꜱᴋ ᴜsᴇʀ:\n\nuser Nᴀᴍᴇ: {uss.mention}\n\nUsᴇʀ ɪᴅ: {uss.id}!")	
         else:
             referdb.add_refer_points(user_id, fromuse)
-            await message.reply_text(f"You have been successfully invited by {uss.mention}!")
-            await client.send_message(user_id, f"🎉 ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ ꜱɪʀ, 🥳 ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴄᴇɪᴠᴇᴅ 𝟣𝟢 ᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ʙᴇᴄᴀᴜꜱᴇ {message.from_user.mention}!")
+            await message.reply_text(f"ʏᴏᴜ ʜᴀᴠᴇ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🎊 ᴜꜱᴇᴅ {uss.mention}'ꜱ  ʀᴇꜰᴇʀʀᴀʟ ʟɪɴᴋ")
+            await client.send_message(user_id, f"🎉 ᴄᴏɴɢʀᴀᴛᴜʟᴀᴛɪᴏɴꜱ ꜱɪʀ, 🥳 ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴄᴇɪᴠᴇᴅ 𝟣𝟢 ᴄɪɴᴇᴡᴏᴏᴅ ᴄᴏɪɴꜱ ʙᴇᴄᴀᴜꜱᴇ {message.from_user.mention} ʜᴀꜱ ꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ꜰʀᴏᴍ ʏᴏᴜʀ ʀᴇꜰᴇʀʀᴀʟ ʟɪɴᴋ")
         return
         
     if len(message.command) == 2 and message.command[1] in ["premium"]:
