@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALL Movies Studio | {{file_name}}</title>
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-    <link rel="stylesheet" href="https://biisal.github.io/Resources/StreamCSS.css">
-    <link rel="stylesheet" href="https://biisal.github.io/Resources/playerCss.css">
+    <title>Cinewood Pvt. Ltd - {{file_name}}</title>
+    <link rel="icon" href="https://i.postimg.cc/dV9x1v32/favlogo.png" type="image/png">
+    <link rel="stylesheet" href="https://thekingof0744454.github.io/repoking/style-cinewood.css">
+    <link rel="stylesheet" href="https://thekingof0744454.github.io/repoking/stream-cinewood.css">
+    <link rel="stylesheet" href="https://thekingof0744454.github.io/repoking/cinewood-player.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
@@ -17,59 +18,74 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<!-- this code is written by @biisal tg:biisal-files  -->
-<!-- stealing credit doesn't make you developer..so try to give full credit to the developer 😊 u will not loose anything for giving proper credit.   -->
+
+<!--This Code is Written By Cinewood Team don't Remove our credits-->
+<!--Copyright © 2016-2025 Cinewood Pvt. Ltd All Rights Reserved-->
 
 <body>
     <nav>
-        <div class="nleft">
-            <a href="https://t.me/Deendayal_dhakad">
-                <!-- if u are trying to change the header name please remove the title text from bottom line  -->
-                <h3 id="heading" style="z-index: 100;" class="magnet">Deendayal Dhakad</h3>
-            </a>
-        </div>
-        <div class="nryt">
-            <a class="home-btn magnet" href="#main" onclick="toggleWidthnav(this)">Home</a>
-
-            <a href="#sec1" class="about-btn magnet" onclick="toggleWidthnav(this)">About</a>
-        </div>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#sec1">About Us</a></li>
+            <li><a href="https://t.me/+crOLyDw9_1gxMTA1" target="_blank">Movie Group</a></li>
+            <li><a href="https://t.me/+KffNbYlF1_diNzRl" target="_blank">Movie Channel</a></li>
+            <li><a href="#sec4">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><img src="https://i.postimg.cc/MZN22WfX/c.png" alt="Cinewood" id="heading" style="z-index: 100;" class="cinewoodlogo">
+        </a></li>
+            <a class="home-btn magnet" href="#main" onclick="toggleWidthnav(this)"></a>
+            <a href="#sec1" class="about-btn magnet" onclick="toggleWidthnav(this)"></a>
+          <li class="hideOnMobile"><a href="#main">Home</a></li>
+          <li class="hideOnMobile"><a href="#sec1">About Us</a></li>
+          <li class="hideOnMobile"><a href="https://t.me/+crOLyDw9_1gxMTA1" target="_blank">Movie Group</a></li>
+          <li class="hideOnMobile"><a href="https://t.me/+KffNbYlF1_diNzRl" target="_blank">Movie Channel</a></li>
+          <li class="hideOnMobile"><a href="#sec4">Contact Us</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
     </nav>
     <center>
         <div class="about-nav">
-            <a href="#sec1" class="wlcm magnet" onclick="toggleWidth(this)">Welcome</a>
-            <a href="#sec2" class="abt-chnl magnet" onclick="toggleWidth(this)">Channels</a>
-            <a href="#sec3" class="magnet bot-btn" onclick="toggleWidth(this) , bot_btn_clicked()">Bots</a>
-            <a href="#sec4" class="magnet contact-btn" onclick="toggleWidth(this)">Let's Talk</a>
+            <a href="#" class="wlcm magnet" onclick="toggleWidth(this)"></a>
+            <a href="#" class="abt-chnl magnet" onclick="toggleWidth(this)"></a>
+            <a href="#" class="magnet bot-btn" onclick="toggleWidth(this) , bot_btn_clicked()"></a>
+            <a href="#" class="magnet contact-btn" onclick="toggleWidth(this)"></a>
         </div>
     </center>
-    <!-- this code is written by @biisal tg:biisal-files  -->
-    <!-- stealing credit doesn't make you developer..so try to give full credit to the developer 😊 u will not loose anything for giving proper credit.   -->
-
+    <!--This Code is Written By Cinewood Team don't Remove our credits-->
+<!--Copyright © 2016-2025 Cinewood Pvt. Ltd All Rights Reserved-->
     <div class="outer">
         <div class="inner">
             <div class="main" id="main">
-                <video id="player" class="player" src="{{file_url}}" type="video/mp4" playsinline controls
+                <br><video id="player" class="player" src="{{file_url}}" type="video/mp4" playsinline controls
+
                     width="100%"></video>
                 <div class="player"></div>
                 <div class="file-name">
-                    <h4>File name : </h4>
+                    <h4>TITLE</h4>
                     <br>
                     <p id="myDiv">{{file_name}}</p>
                 </div>
+            <center>    
+                <div class="thirdparty-text">
+                    <h4>Watch in External Media Player</h4>
+                </div>
+            </center>        
                 <div class="downloadBtn">
-                    <button class="magnet" onclick="vlc_player()"><img src="https://i.postimg.cc/15TQ4y7B/vlc.png"
-                            alt="">watch in VLC PLAYER</button>
+                    <button class="magnet" onclick="vlc_player()"><img src="https://i.postimg.cc/cLwBFbjZ/2.png"
+                            alt="">VLC PLAYER</button>
                     <button class="magnet" onclick="mx_player()"><img src="https://i.postimg.cc/sx4Msv4T/mx.png"
-                            alt="">watch in MX PLAYER</button>
-                    <button class="magnet" onclick="playit_player()"><img src="https://i.postimg.cc/RVGWYJFF/playit.png"
-                            alt="">watch in PLAYit
+                            alt="">MX PLAYER</button>
+                    <button class="magnet" onclick="playit_player()"><img src="https://i.postimg.cc/C5Z3W7CY/1.png"
+                            alt="">PLAYit
                         PLAYER</button>
-                    <button class="magnet" onclick="km_player()"><img src="https://i.postimg.cc/wT9tFQ9Z/km.png"
-                            alt="">watch in KM PLAYER</button>
+                    <button class="magnet" onclick="km_player()"><img src="https://i.postimg.cc/QMQYKPmH/2.png"
+                            alt="">KM PLAYER</button>
                     <button class="magnet" onclick="s_player()"><img src="https://i.postimg.cc/XYJr6NGg/s.png"
-                            alt="">watch in S PLAYER</button>
+                            alt="">S PLAYER</button>
                     <button class="magnet" onclick="hd_player()"><img src="https://i.postimg.cc/rFT43LNh/hd.png"
-                            alt="">watch in HD
+                            alt="">HD
                         PLAYER(4K)</button>
                     <button class="magnet" onclick="bisalDownload()"><img style="height: 35px;"
                             src="https://i.postimg.cc/Zncc9YLq/Pngtree-download-icon-3581467.png" alt="">download video
@@ -80,108 +96,115 @@
             <div class="abt">
                 <div class="about">
                     <div class="about-dets">
-                        <div class="abt-sec" id="sec1" style="padding: 160px 30px;">
-                            <h1 style="text-align: center;">WELCOME TO OUR <Span>STREAMING</Span> PAGE</h1>
-                            <p style="text-align: center; line-height: 2;word-spacing: 2px;  letter-spacing: 0.8px;">
-                                We're
-                                thrilled to have <span>you</span> here.
-                                Get ready for an
-                                amazing <span>experience</span>
-                                filled with <span>entertainment</span>, <span>fun</span>, and <span>surprises</span>.
-                                Grab
-                                your snacks, sit back, and <span>enjoy</span> the show!
-                            </p>
-                        </div>
-                        <div class="abt-sec" id="sec2">
-                            <h1>OUR ALL <span>CHANNELS</span> LIST</h1>
-                            <div class="links chnl-link">
-                                <a class="magnet" href="https://t.me/Deendayal_dhakad"><button>Update Channel </button></a>
-                                <a class="magnet" href="https://t.me/Deendayal_Movies_Group"><button> Movie Request Group </button></a>
-                                <a class="magnet" href="#https://youtube.com/@Deendayal_Dhakad0"><button>YouTube Channel </button></a>
-                            </div>
-                        </div>
-                        <div class="abt-sec" id="sec3">
-                            <h1>OUR ALL <span>BOTS</span> LIST</h1>
-                            <div class="links bot-link">
-                                <a class="magnet" href="https://t.me/@Deendayal_Chat_Gpt_Bot"><button>Chat Gpt Bot
-                                        </button></a>
-                                <a class="magnet" href="https://t.me/SHRADDHA_KAPOOR_20_Bot"><button>reaction Bot 
-                                        </button></a>
-                            </div>
+                        <div class="abt-sec" id="sec1">
+                            <h1 style="text-align: center;">ABOUT US</h1>
+                            <p style="text-align: justify;">Cinewood Private Limited is an online OTT platform that provides movie series to users for free. Cinewood started as a Telegram channel in 2016. How does Cinewood work? Cinewood works through Telegram channels, groups and bots. Later, due to more traffic, the founder of Cinewood decided that we will work as a team and since then Cinewood has become a team. We use ads to maintain the team and especially for those who are annoyed by ads, considering their budget, we have kept the price of Cinewood subscription for you absolutely budget friendly, which starts from just Rs 25 which is 90% less than other OTT subscriptions and in Cinewood subscription you will get some pro level features which have neither come on OTT platform till date nor will come in future<br><br>if you have any questions or have found any errors in our content, please do not hesitate to <a href="#sec4">Contact Us</a></p>
                         </div>
                         <div class="abt-sec" id="sec4">
-                            <!-- this code is written by @biisal tg:biisal-files  -->
-                            <!-- stealing credit doesn't make you developer..so try to give full credit to the developer 😊 u will not loose anything for giving proper credit.   -->
-
-                            <p style="text-align: center;">We Can Tal'k For Your Support And You Can Report Through
-                                Telegram</p>
-                            <div class="links contact">
-                                <a href="https://t.me/Contact_Deendayal_bot"><button>Contact</button></a>
+                            <h1 style="text-align: center;">Contact Us</h1>
+                            <p style="text-align: center; padding-left: 5%; padding-right: 5%;">Welcome to visit Cinewood's contact page. This is Cinewood's official contact page. If you have any questions regarding our service or wish to purchase a subscription, please feel free to contact us.</p><br><br>
+                            <div class="simple-button">
+                                <img src="https://envs.sh/n29.png" alt="button" class="button-image">
+                                <span class="button-text">Contact Now</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="mid">
-                <h1 class="mid-text">VISIT <a href="#sec3" onclick="bot_btn_clicked()"><span>OUR BOTS LIST</span></a>
-                    FOR
-                    MORE
-                    INFO</h1>
+        <div class="mid">
+            <h1 class="mid-text">Welcome To Cinewood</h1><br>
+        </div>
+
+            <div class="cinewood-con">
+                <div class="box">
+                    <i class="fa fa-film logo"></i>
+                    <h2>Up to 4k Resulation</h2>
+                    <p>We offering you up to 4k resulation movie and series just watch full hd movies and enjoy</p>
+                </div>
+                <div class="box">
+                    <i class="far fa-money-bill-alt logo"></i>
+                    <h2>Earn Money with TG</h2>
+                    <p>Now you can earn good money from TG, for that you need a Group with 50 members for more info <a href="#sec4" class="link-txt">Contact Us</a></p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-database logo"></i>
+                    <h2>Millions of Files</h2>
+                    <p>We have the largest databse of Telegram which contains millions of movie & series files</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-award logo"></i>
+                    <h2>Cinewood Subscription</h2>
+                    <p>If you enjoy ad-free movies and premium features, buy the Cinewood subscription starting at just ₹25 <a href="#sec4" class="link-txt">Buy Now</a></p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-calendar logo"></i>
+                    <h2>1st On Telegram</h2>
+                    <p>We upload New Movies daily & Releasing date, whenever a new movie is released you will get it first</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-headset logo"></i>
+                    <h2>24/4 Support</h2>
+                    <p>Cinewood support team is always ready to solve your problems if you need any help <a href="#sec4" class="link-txt">contact Us</a></p>
+                </div>
             </div>
-
-            <div class="last-text">
-                <p style="font-weight: 500;">
-                    Welcome To Our Online Streaming Platform! Our Website Allows Users To Generate Streamable Links For
-                    Various Files Using Telegram Bots. Please Note That We Are Not Responsible For The Content Shared Or
-                    Streamed Through Our Service. Users Are Encouraged To Respect Copyright Laws And Adhere To Our
-                    Community
-                    Guidelines. Enjoy Easy, Hassle-Free File Streaming.
-                </p>
-            </div>
-            <center>
-
-                <div class="movie-cont">
-                    <a href="https://t.me/Deendayal_dhakad">
-                        <div class="movieSug">
-                            <div class="movieDets">
-
-                            </div>
-                            <div class="movieimg">
-                                <img src="">
-                            </div>
+<!--This Code is Written By Cinewood Team don't Remove our credits-->
+<!--Copyright © 2016-2025 Cinewood Pvt. Ltd All Rights Reserved-->            
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Pages</h4>
+                            <ul>
+                                <li><a href="#main">Home</a></li>
+                                <li><a href="#sec1">About Us</a></li>
+                                <li><a href="#sec4">Contact Us</a></li>
+                            </ul>
                         </div>
-                    </a>
-                    <div class="low-width-movie-dets">
-                        <div class="movieStsBar">
-                            <div class="movieDets-mini">
-
+                        <div class="footer-col">
+                            <h4>Telegram</h4>
+                            <ul>
+                                <li><a href="https://t.me/+KffNbYlF1_diNzRl" target="_blank">Movie Channel</a></li>
+                                <li><a href="https://t.me/+crOLyDw9_1gxMTA1" target="_blank">Movie Group 1</a></li>
+                                <li><a href="https://t.me/+ssdEIjOtVWZjZDI1" target="_blank">Movie Group 2</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="#">Our Bots</a></li>
+                                <li><a href="https://t.me/cinewood_1_bot" target="_blank">Cinewoood Bot</a></li>
+                                <li><a href="https://t.me/movie_filters_bot" target="_blank">Movie Filters Bot</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Support Chat</h4>
+                            <div class="social-links">
+                                <a href="https://t.me/cinewood_support_bot" target="_blank">
+                                    <i style="font-size: 40px;" class="fab fa-telegram-plane"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <button class="ranMovBtn" onclick="getDets()">Get More Movies Suggestion</button>
                 </div>
+                
+            </footer>
+           <div">
+            <p class="cinewood-fu">Copyright © 2016-2025 Cinewood Pvt. Ltd All Rights Reserved.</p>
+        </div>
 
-            </center>
-            <!-- this code is written by @biisal tg:biisal-files  -->
-            <!-- stealing credit doesn't make you developer..so try to give full credit to the developer 😊 u will not loose anything for giving proper credit.   -->
-
-
-            <center>
-                <div class="copyright">
-                    <h5 class="text-center">Copyright © 2024 <a href="https://t.me/Deendayal_dhakad"><span
-                                style="font-weight: 700;">Deendayal dhakad</span></a>. All
-                        Rights Reserved.</h5>
-                    <div class="icons">
-                        <a href="https://t.me/Deendayal_dhakad"><i class="fa-brands fa-telegram fa-lg"></i></a>
-                        
-                    </div>
-                    <h4 style="font-weight: 700;">This Page Is Made By <a
-                            href="https://t.me/deendayal_dhakad"><span>Deendayal dhakad</span></a></h4>
-                </div>
-            </center>
-        </footer>
+        <script>
+            function showSidebar(){
+              const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+              const sidebar = document.querySelector('.sidebar')
+              sidebar.style.display = 'none'
+            }
+        </script>
+<!--This Code is Written By Cinewood Team don't Remove our credits-->
+<!--Copyright © 2016-2025 Cinewood Pvt. Ltd All Rights Reserved-->        
 </body>
 
 
@@ -204,7 +227,8 @@
     new WOW().init();
 </script>
 <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
-<script src="https://biisal.github.io/Resources/StreamJs.js"></script>
+<script src="https://thekingof0744454.github.io/repoking/cinewood-stream.js"></script>
 <script src="script.js"></script>
-
+<!--This Code is Written By Cinewood Team don't Remove our credits-->
+<!--Copyright © 2016-2025 Cinewood Pvt. Ltd All Rights Reserved-->
 </html>
