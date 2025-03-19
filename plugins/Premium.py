@@ -44,8 +44,7 @@ async def myplan(client, message):
         time_left_str = f"{days} ᴅᴀʏꜱ, {hours} ʜᴏᴜʀꜱ, {minutes} ᴍɪɴᴜᴛᴇꜱ"
         await message.reply_text(f"ɴᴏᴡ ꜰᴇᴇʟ ᴘʀᴏᴜᴅ ᴏꜰ ʏᴏᴜʀꜱᴇʟꜰ 😎 ᴀꜱ ʏᴏᴜ ᴀʀᴇ ɴᴏᴡ ᴀ ᴍᴇᴍʙᴇʀ ᴏꜰ ᴄɪɴᴇᴡᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 😉\n\n😎 ᴜꜱᴇʀ : {user}\n⚡ ᴜꜱᴇʀ ɪᴅ : <code>{user_id}</code>\n⏰ ᴛɪᴍᴇ ʟᴇꜰᴛ : {time_left_str}\n✖️ ᴇxᴘɪʀʏ ᴅᴀᴛᴇ : {expiry_str_in_ist}")   
     else:
-        await message.reply_text(f"<b>Dᴇᴀʀ {user}, 😢\n\nᴡᴇ ᴀʀᴇ ᴠᴇʀʏ ꜱᴀᴅ ᴛᴏ ɪɴꜰᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ☹️ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴀɴʏ ᴀᴄᴛɪᴠᴇ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʟᴀɴ ᴘʟᴇᴀꜱᴇ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🥰 ᴀɴᴅ ᴡᴀᴛᴄʜ ᴀᴅ ꜰʀᴇᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ᴍᴏʀᴇ ᴘʀᴏ ꜰᴇᴀᴛᴜʀᴇꜱ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴏᴜʀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʟᴀɴ ᴏʀ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ
-<b>",
+        await message.reply_text(f"<b>Dᴇᴀʀ {user}, 😢\n\nᴡᴇ ᴀʀᴇ ᴠᴇʀʏ ꜱᴀᴅ ᴛᴏ ɪɴꜰᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ☹️ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴀɴʏ ᴀᴄᴛɪᴠᴇ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʟᴀɴ ᴘʟᴇᴀꜱᴇ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 🥰 ᴀɴᴅ ᴡᴀᴛᴄʜ ᴀᴅ ꜰʀᴇᴇ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ᴍᴏʀᴇ ᴘʀᴏ ꜰᴇᴀᴛᴜʀᴇꜱ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴏᴜʀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʟᴀɴ ᴏʀ ʙᴜʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ<b>",
 	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ Nᴏᴡ ✨", callback_data='premium_text')]]))			 
 
 @Client.on_message(filters.command("get_premium") & filters.user(ADMINS))
