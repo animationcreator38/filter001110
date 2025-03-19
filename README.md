@@ -1,58 +1,16 @@
-<p align="center"> <img src="https://github.com/MrRaazz/Pics/blob/main/deenu.jpg"> </p>
-<h1 align="center"> 𝑫𝒆𝒆𝒏𝒅𝒂𝒚𝒂𝒍_𝒅𝒉𝒂𝒌𝒂𝒅 </h1>
+<p align="center">
+  <img src="https://graph.org/file/2d026506bc391b84d9c42.jpg" alt="CineWood Logo">
+</p>
+<h1 align="center">
+  CineWood
+</h1>
 
-**OWNER**
-<!-- > ## ⚠ <u>Under Maintenance</u> ⚠  
-> This repository is currently under maintenance. Please **DO NOT deploy** until further notice. -->
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+𝘊𝘪𝘯𝘦𝘞𝘰𝘰𝘥-Bot;𝘐'𝘮+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝘊𝘪𝘯𝘦𝘞𝘰𝘰𝘥+𝐵𝑜𝑡!;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
+</p>
 
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/Deendayal_Support_Group)
-
-First Check our **Demo** bot -
-
-[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/Princess_V4_bot)](https://t.me/Princess_V4_bot)
-
-## Special Thanks To
-
-### 🌴 [Sᴀʜɪᴅ ᴍᴀʟɪᴋ](https://github.com/Sahidmalik001)
-
-### 🌴 [⌯ Ꭺɴᴏɴʏᴍᴏᴜꜱ | ×͜× |](https://t.me/BeingXAnonymous)
-
-### 🌴 [Mʀ Rᴀᴀᴢᴢ](https://github.com/MrRaazz)
-
-### 🌴 [Hᴀʀsʜᴀʟ Pᴜʀᴏʜɪᴛ Eᴅɪᴛs](https://github.com/HarshalPurohitEdits)
-
-### 🌴 [Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ](https://t.me/Deendayal_Support_Group)
-
-### Need Deployment Support?
-
-If you encounter any issues **Deploying** the bot, feel free to seek assistance in our **support group**:
-
-[![Join Support Group    ](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/Deendayal_Support_Group)](https://t.me/Deendayal_Support_Group)
-
-#𝑫𝒐𝒖𝒃𝒍𝒆 𝑫𝑩 𝒔𝒖𝒑𝒑𝒐𝒓𝒕
-
-  **features**
-- [x] 𝒔𝒕𝒓𝒆𝒂𝒎 𝒎𝒐𝒅𝒆 𝒐𝒏 𝒐𝒇𝒇 
-- [x] 𝑼𝑰 𝒊𝒎𝒑𝒓𝒐𝒗𝒆
-- [x] 𝑴𝒖𝒍𝒕𝒊 𝒇𝒔𝒖𝒃 𝒔𝒖𝒑𝒑𝒐𝒓𝒕
-- [x] 𝑼𝒑𝒅𝒂𝒕𝒆 𝒎𝒐𝒗𝒊𝒆 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝒐𝒏 𝒐𝒇𝒇 𝒄𝒐𝒎𝒎𝒂𝒏𝒅
-- [x] 𝑷𝒎 𝒔𝒆𝒂𝒓𝒄𝒉 𝒐𝒏 𝒐𝒇𝒇 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 
-- [x] 𝑽𝒆𝒓𝒊𝒇𝒊𝒆𝒅 𝑼𝒔𝒆𝒓 𝒄𝒐𝒖𝒏𝒕𝒆𝒓
-- [x] 𝑼𝒑𝒅𝒂𝒕𝒆 𝒎𝒐𝒗𝒊𝒆 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏
-- [x] 𝑻𝒐𝒑 𝒕𝒓𝒂𝒏𝒅𝒊𝒏𝒈
-- [x] 𝑺𝒉𝒐𝒓𝒕𝒏𝒆𝒓 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒊𝒏 𝑺𝒕𝒓𝒆𝒂𝒎 𝒂𝒏𝒅 𝑫𝒐𝒘𝒏𝒍𝒐𝒂𝒅 𝒇𝒆𝒂𝒕𝒖𝒓𝒆
-- [x] 𝑮𝒐𝒐𝒅 𝑴𝒐𝒓𝒏𝒊𝒏𝒈, 𝑨𝒇𝒕𝒆𝒓𝒏𝒐𝒐𝒏, 𝑬𝒗𝒆𝒏𝒊𝒏𝒈, 𝑵𝒊𝒈𝒉𝒕 𝒘𝒊𝒔𝒉𝒆𝒔
-- [x] 𝑨𝒅𝒗𝒂𝒏𝒄𝒆 𝑨𝑰 𝒔𝒑𝒆𝒍𝒍𝒊𝒏𝒈 𝒄𝒉𝒆𝒄𝒌 𝒇𝒆𝒂𝒕𝒖𝒓𝒆
-- [x] 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝒕𝒐 𝒋𝒐𝒊𝒏 𝒊𝒏 𝑭𝒔𝒖𝒃
-- [x] 𝑽𝒆𝒓𝒊𝒇𝒊𝒆𝒅 𝑼𝒔𝒆𝒓 𝑫𝑩 𝑺𝒂𝒗𝒆
-- [x] 𝑺𝒖𝒑𝒆𝒓 𝑭𝒂𝒔𝒕 𝑼𝒔𝒆𝒓 𝑩𝒓𝒐𝒂𝒅𝒄𝒂𝒔𝒕
-- [x] 𝑹𝒆𝒇𝒆𝒓 & 𝑮𝒆𝒕 𝑷𝒓𝒆𝒎𝒊𝒖𝒎
-- [x] 𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎 𝒗𝒊𝒅𝒆𝒐 𝒅𝒐𝒘𝒏𝒍𝒐𝒂𝒅
-- [x] 𝑻𝒐𝒑 𝑺𝒆𝒂𝒓𝒄𝒉𝒊𝒏𝒈 
-- [x] 𝑩𝒆𝒔𝒕 𝑺𝒕𝒓𝒆𝒂𝒎𝒊𝒏𝒈 𝑾𝒆𝒃𝒔𝒊𝒕𝒆
-- [x] 𝑷𝒓𝒆𝒎𝒊𝒖𝒎 𝒎𝒆𝒎𝒃𝒆𝒓𝒔𝒉𝒊𝒑 𝒎𝒂𝒏𝒂𝒈𝒆𝒎𝒆𝒏𝒕 
-- [x] 𝐶𝑢𝑠𝑡𝑜𝑚 𝑆ℎ𝑜𝑟𝑡𝑛𝑒𝑟 ( 𝐴𝑙𝑙 𝑊𝑒𝑏𝑠𝑖𝑡𝑒𝑠 )
-- [x] 𝑆𝑡𝑟𝑒𝑎𝑚 𝑜𝑛𝑙𝑖𝑛𝑒 𝑎𝑛𝑑 𝐹𝑎𝑠𝑡 𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑
+## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
+- [x] 𝘍𝘢𝘴𝘵 𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥 & 𝘞𝘢𝘵𝘤𝘩 𝘖𝘯𝘭𝘪𝘯𝘦
+- [x] 𝐵𝑜𝑡 𝑃𝑀 𝐹𝑖𝑙𝑒 𝘚𝘦𝘢𝘳𝘤𝘩 𝑀𝑜𝑑𝑒
 - [x] 𝐼𝑀𝐷𝐵 𝑇𝑒𝑚𝑝𝑙𝑎𝑡𝑒 𝑆𝑒𝑡
 - [x] 𝐼𝑛𝑑𝑒𝑥𝑒𝑠 𝐹𝑖𝑙𝑒𝑠 𝑎𝑏𝑜𝑣𝑒 2𝐺𝐵
 - [x] 𝑃𝑟𝑒𝐷𝑉𝐷 𝑎𝑛𝑑 𝐶𝑎𝑚𝑅𝑖𝑝 𝐷𝑒𝑙𝑒𝑡𝑒 𝑀𝑜𝑑𝑒
@@ -71,6 +29,7 @@ If you encounter any issues **Deploying** the bot, feel free to seek assistance 
 - [x] 𝐺𝑙𝑜𝑏𝑎𝑙 𝐹𝑖𝑙𝑒 𝐹𝑖𝑙𝑡𝑒𝑟𝑖𝑛𝑔
 - [x] 𝐼𝑀𝐷𝐵
 - [x] 𝐴𝑑𝑚𝑖𝑛 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
+- [x] 𝑈𝑠𝑒𝑟 𝐵𝑟𝑜𝑎𝑑𝑐𝑎𝑠𝑡
 - [x] 𝐺𝑟𝑜𝑢𝑝 𝐵𝑟𝑜𝑎𝑑𝑐𝑎𝑠𝑡
 - [x] 𝐼𝑛𝑑𝑒𝑥
 - [x] 𝐼𝑀𝐷𝐵 𝑠𝑒𝑎𝑟𝑐ℎ
@@ -84,13 +43,18 @@ If you encounter any issues **Deploying** the bot, feel free to seek assistance 
 - [x] 𝑈𝑠𝑒𝑟 𝑈𝑛𝑏𝑎𝑛
 - [x] 𝐶ℎ𝑎𝑡 𝐿𝑒𝑎𝑣𝑒
 - [x] 𝐶ℎ𝑎𝑡 𝐷𝑖𝑠𝑎𝑏𝑙𝑒
+- [x] 𝐶ℎ𝑎𝑛𝑛𝑒𝑙
 - [x] 𝑆𝑝𝑒𝑙𝑙𝑖𝑛𝑔 𝐶ℎ𝑒𝑐𝑘 𝐹𝑒𝑎𝑡𝑢𝑟𝑒
 - [x] 𝐹𝑖𝑙𝑒 𝑆𝑡𝑜𝑟𝑒
 - [x] 𝐴𝑢𝑡𝑜 𝐷𝑒𝑙𝑒𝑡𝑒
 - [x] 𝐴𝑛𝑑 𝑀𝑜𝑟𝑒...
 
-<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/dreamcinezone'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
+<b>𝑇𝑜 𝑘𝑛𝑜𝑤 𝑎𝑏𝑜𝑢𝑡 𝑎𝑙𝑙 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠, 𝐽𝑜𝑖𝑛 𝑜𝑢𝑟 <a href='https://t.me/how_to_download_mo_vie'>𝑢𝑝𝑑𝑎𝑡𝑒𝑠 𝑐ℎ𝑎𝑛𝑛𝑒𝑙</a>.</b>
 
+* [![𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑](https://img.shields.io/static/v1?label=𝐂𝐎𝐍𝐓𝐀𝐂𝐓&message=𝐌𝐄&color=critical)](https://t.me/cinewood_1)
+
+* * [![𝐃𝐄𝐌𝐎 𝐁𝐎𝐓](https://img.shields.io/static/v1?label=𝐃𝐄𝐌𝐎&message=𝐁𝐎𝐓&color=critical)](https://t.me/cine_wood_bot)
+  
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 ```
 movie_update - update channel notification on off
@@ -131,12 +95,79 @@ premium_users - ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴘʀᴇᴍɪᴜᴍ ᴜꜱᴇʀꜱ...
 restart - ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ...
 ```
 
-## Disclaimer
+## Variables
 
-This repository is provided for educational purposes only. It is not intended for personal or commercial gain. Use of this repository and the code within is at your own risk. The authors and contributors are not responsible for any misuse or damage caused by the use of this project.
+### Required Variables
+* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
+* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
+* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
+* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+### Optional Variables
+* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
+* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
+* Check [info.py](https://github.com/Kushalhk/TG_BOTZ/blob/stream-feature/info.py) for more optional variables
 
-## License
 
-This project is licensed under the [MIT License](https://github.com/Deendayal403/Deendayal_dhakad/blob/Deendayal_dhakad/LICENSE)
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/Kushalhk/TG_BOTZ">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
+</a>
+</p>
+</details>
 
-### Jai Shree Krishna  !😉
+<details><summary>Deploy To Koyeb</summary>
+<br>
+<b>The fastest way to deploy the application is to click the Deploy to Koyeb button below.</b>
+<br>
+<br>
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Kushalhk/TG_BOTZ&branch=stream-feature&name=TG_FILTER_BOT)
+</details>
+
+<details><summary>Deploy To Render</summary>
+<br>
+<b>
+Use these commands:
+<br>
+<br>
+• Build Command: <code>pip3 install -U -r requirements.txt</code>
+<br>
+<br>
+• Start Command: <code>python3 bot.py</code>
+<br>
+<br>
+Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
+<br>
+<br>
+Use these settings when adding a monitor:</b>
+<br>
+<br>
+<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
+<br>
+<br>
+<b>Click on the below button to deploy directly to render ↓</b>
+<br>
+<br>
+<a href="https://render.com/deploy?repo=https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
+</details>
+
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/Kushalhk/TG_BOTZ
+# Install Packages
+pip3 install -U -r requirements.txt
+Edit info.py with variables as given below then run bot
+python3 bot.py
+</pre>
+</p>
+</details>
+
