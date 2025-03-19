@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/2d026506bc391b84d9c42.jpg" alt="CineWood Logo">
+  <img src="https://envs.sh/w89.png" alt="CineWood Logo">
 </p>
 <h1 align="center">
   CineWood
