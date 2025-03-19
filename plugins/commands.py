@@ -556,7 +556,7 @@ async def start(client, message):
                     return
             await msg.edit_caption(f_caption)
             btn = [[
-                InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
+                InlineKeyboardButton("⟳ Gᴇᴛ Fɪʟᴇ Aɢᴀɪɴ ⟳", callback_data=f'delfile#{file_id}')
             ]]
             k = await msg.reply(
                 f"<b><u>⚠️⚠️ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠️⚠️</u></b>\n\n"
@@ -567,7 +567,7 @@ async def start(client, message):
             )
             await asyncio.sleep(DELETE_TIME)
             await msg.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+            await k.edit_text("<b>ʏᴏᴜʀ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ!!!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
         except:
             pass
@@ -622,7 +622,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(btn)
     )
     btn = [[
-            InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", callback_data=f'delfile#{file_id}')
+            InlineKeyboardButton("⟳ Gᴇᴛ Fɪʟᴇ Aɢᴀɪɴ ⟳", callback_data=f'delfile#{file_id}')
         ]]
     k = await msg.reply(
         f"<b><u>⚠️⚠️ 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠️⚠️</u></b>\n\n"
@@ -633,7 +633,7 @@ async def start(client, message):
     )     
     await asyncio.sleep(DELETE_TIME)
     await msg.delete()
-    await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
+    await k.edit_text("<b>ʏᴏᴜʀ ꜰɪʟᴇ/ᴠɪᴅᴇᴏ ɪꜱ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ!!!\n\nᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ</b>",reply_markup=InlineKeyboardMarkup(btn))
     return
 
 
