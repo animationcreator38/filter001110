@@ -129,7 +129,7 @@ async def premium_user(client, message):
 
 
 
-@Client.on_message(filters.command("plan"))
+@Client.on_message(filters.command("plans"))
 async def plan(client, message):
     user_id = message.from_user.id 
     users = message.from_user.mention
