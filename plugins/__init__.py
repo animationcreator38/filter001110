@@ -18,7 +18,7 @@ async def check_expired_premium(client):
             user_id = user["id"]
             await db.remove_premium_access(user_id)
             try:
-                user = await client.get_users(user_id)
+                 user = await client.get_users(user_id)
                 await client.send_message(
                     chat_id=user_id,
                     text=f"<b>Dᴇᴀʀ {user.mention},\n\n ☹️ ʏᴏᴜʀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʟᴀɴ ʜᴀꜱ ᴇxᴘɪʀᴇᴅ, ᴛᴏ ᴇɴᴊᴏʏ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ꜱᴇʀᴠɪᴄᴇꜱ ᴀɢᴀɪɴ ᴘʟᴇᴀꜱᴇ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴀɢᴀɪɴ ᴀꜱ ᴘᴇʀ ʏᴏᴜʀ ᴘʟᴀɴ ᴛᴏ ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ ᴜꜱᴇ /myplan ᴛᴏ ᴄʜᴇᴄᴋ ᴘʟᴀɴꜱ ʟɪꜱᴛ ᴜꜱᴇ /Plans</b>"
