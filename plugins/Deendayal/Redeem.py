@@ -80,9 +80,9 @@ async def redeem_code(client, message):
                     if current_expiry and current_expiry > now_aware:
                         expiry_str_in_ist = current_expiry.astimezone(pytz.timezone("Asia/Kolkata")).strftime("%d-%m-%Y\n⏱️ Expiry Time: %I:%M:%S %p")
                         await message.reply_text(
-                            f"🚫 <b>Yᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ ᴀᴄᴛɪᴠᴇ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss!</b>\n\n"
+                            f"🚫 <b>Yᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ ᴀᴄᴛɪᴠᴇ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴀᴄᴄᴇss!</b>\n\n"
                             f"⏳ <b>Cᴜʀʀᴇɴᴛ Pʀᴇᴍɪᴜᴍ Exᴘɪʀʏ:</b> {expiry_str_in_ist}\n\n"
-                            f"<i>Yᴏᴜ ᴄᴀɴɴᴏᴛ ʀᴇᴅᴇᴇᴍ ᴀɴᴏᴛʜᴇʀ ᴄᴏᴅᴇ ᴜɴᴛɪʟ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss ᴇxᴘɪʀᴇs.</i>\n\n"
+                            f"<i>Yᴏᴜ ᴄᴀɴɴᴏᴛ ʀᴇᴅᴇᴇᴍ ᴀɴᴏᴛʜᴇʀ ᴄᴏᴅᴇ ᴜɴᴛɪʟ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴀᴄᴄᴇss ᴇxᴘɪʀᴇs.</i>\n\n"
                             f"<b>Tʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴏᴜʀ sᴇʀᴠɪᴄᴇ! 🔥</b>",
                             disable_web_page_preview=True
                         )
@@ -93,8 +93,8 @@ async def redeem_code(client, message):
 
                     expiry_str_in_ist = expiry_time.astimezone(pytz.timezone("Asia/Kolkata")).strftime("%d-%m-%Y\n⏱️ Expiry Time: %I:%M:%S %p")
                     await message.reply_text(
-                        f"🎉 <b>Premium activated successfully! 🚀</b>\n\n"
-                        f"👤 <b>User:</b> {user.mention}\n"
+                        f"🎉 <b>ɴᴏᴡ ꜰᴇᴇʟ ᴘʀᴏᴜᴅ ᴏꜰ ʏᴏᴜʀꜱᴇʟꜰ 😎 ᴀꜱ ʏᴏᴜ ᴀʀᴇ ɴᴏᴡ ᴀ ᴍᴇᴍʙᴇʀ ᴏꜰ ᴄɪɴᴇᴡᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 😉</b>\n\n"
+                        f"😎 <b>User:</b> {user.mention}\n"
                         f"⚡ <b>User ID:</b> <code>{user_id}</code>\n"
                         f"⏳ <b>Premium Access Duration:</b> <code>{time}</code>\n"
                         f"⌛️ <b>Expiry Date:</b> {expiry_str_in_ist}",
@@ -103,12 +103,12 @@ async def redeem_code(client, message):
                     log_message = f"""
                         #Redeem_Premium 🔓
 
-                        👤 <b>User:</b> {user.mention}
+                        😎 <b>User:</b> {user.mention}
                         ⚡ <b>User ID:</b> <code>{user_id}</code>
                         ⏳ <b>Premium Access Duration:</b> <code>{time}</code>
                         ⌛️ <b>Expiry Date:</b> {expiry_str_in_ist}
 
-                        🎉 Premium activated successfully! 🚀
+                        ɴᴏᴡ ꜰᴇᴇʟ ᴘʀᴏᴜᴅ ᴏꜰ ʏᴏᴜʀꜱᴇʟꜰ 😎 ᴀꜱ ʏᴏᴜ ᴀʀᴇ ɴᴏᴡ ᴀ ᴍᴇᴍʙᴇʀ ᴏꜰ ᴄɪɴᴇᴡᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 😉
                         """
                     await client.send_message(
                         PREMIUM_LOGS,
